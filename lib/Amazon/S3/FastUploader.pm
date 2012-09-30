@@ -42,7 +42,7 @@ sub upload {
     my $callback = sub {
         return unless -f ;
         my $file = Amazon::S3::FastUploader::File->new({
-            s3         => $s3 
+            s3         => $s3,
             local_path => $File::Find::name,
             target_dir => $target_dir,
             bucket     => $bucket,
