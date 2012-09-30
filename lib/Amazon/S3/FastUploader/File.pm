@@ -9,7 +9,8 @@ our $VERSION = '0.04';
 sub upload {
     my $self = shift;
 
-    my $bucket = $self->{bucket};
+    my $bucket = $self->bucket;
+    my $s3 = $self->s3;
 
     my $opt = {};
     if ($self->config->{encrypt}) {
