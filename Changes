@@ -1,5 +1,14 @@
 Revision history for Amazon-S3-FastUploader
 
-0.01    Date/time
-        First version, released on an unsuspecting world.
+0.01    2012-09-23
+        First version is released !
+
+0.02    2012-09-25
+        Changed API
+
+0.03    2012-09-26
+        bugfix
+
+0.04    2012-09-30
+        improve error handling
 
