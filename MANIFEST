@@ -1,4 +1,7 @@
+.gitattributes
+.shipit
 Changes
+ignore.txt
 lib/Amazon/S3/FastUploader.pm
 lib/Amazon/S3/FastUploader/File.pm
 Makefile.PL
