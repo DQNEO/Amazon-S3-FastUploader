@@ -4,6 +4,8 @@ use warnings;
 use base qw( Class::Accessor );
 __PACKAGE__->mk_accessors( qw(local_path target_dir bucket config s3) );
 
+our $VERSION = '0.04';
+
 sub upload {
     my $self = shift;
 
@@ -46,15 +48,6 @@ sub _remote_key {
 =head1 NAME
 
 Amazon::S3::FastUploader -  fast uploader to Amazon S3
-
-=head1 VERSION
-
-Version 0.02
-
-=cut
-
-our $VERSION = '0.02';
-
 
 =head1 SYNOPSIS
 
