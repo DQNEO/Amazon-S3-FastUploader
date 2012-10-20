@@ -255,6 +255,8 @@ config: config option (hashref)
 
 do uploading
 
+content_type (mime type) is automatically determined by its extension name.
+
 =head2 from_to
 
 return a string wich shows source filename and target filename
