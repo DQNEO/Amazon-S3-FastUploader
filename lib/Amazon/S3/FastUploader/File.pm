@@ -14,7 +14,7 @@ sub upload {
 
     my $opt = {};
     if ($self->config->{encrypt}) {
-        $opt = { 'x-amz-server-side-encryption' => 'AES256'};
+        $opt->{"x-amz-server-side-encryption"} = 'AES256';
     }
 
     my $count_failed = 0;
