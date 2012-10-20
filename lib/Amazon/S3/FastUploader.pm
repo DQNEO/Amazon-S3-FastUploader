@@ -150,7 +150,12 @@ The module uses Parallel::ForkManager internally.
     my $uploader = Amazon::S3::FastUploader->new({
         aws_access_key_id => 'your_key_id',
         aws_secret_access_key => 'your_secre_key',
-        process => 10,
+        process => 10, # num of proccesses in parallel
+        secure  => 1,  # use SSL
+        encrypt => 1,  # use ServerSide Encryption
+        retry   => 5,
+        verbose => 1,  # print log to stdout
+        acl_short => 'public-read',  # private if ommited
     });
 
     $uploader->upload($local_dir, $bucket_name, $remote_dir);
