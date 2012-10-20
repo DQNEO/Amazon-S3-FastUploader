@@ -12,7 +12,10 @@ Revision history for Amazon-S3-FastUploader
 0.04    2012-09-30
         improve error handling
 
-0.05    2012-10-21
+0.05    empyt update (just test)
+
+
+0.06	2012-10-21
         can set acl_short
         set mime types automatically
 
