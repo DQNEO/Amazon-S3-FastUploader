@@ -8,7 +8,7 @@ use Parallel::ForkManager;
 use base qw( Class::Accessor );
 __PACKAGE__->mk_accessors( qw(config) );
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 sub new {
     my $class = shift;

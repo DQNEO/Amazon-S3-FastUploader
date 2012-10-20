@@ -5,7 +5,7 @@ use File::Basename;
 use base qw( Class::Accessor );
 __PACKAGE__->mk_accessors( qw(local_path target_dir bucket config s3) );
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 # stolen from Plack::MIME which is stolen from rack.mime.rb
 our $MIME_TYPES = {
