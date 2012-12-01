@@ -8,7 +8,7 @@ use Parallel::ForkManager;
 use base qw( Class::Accessor );
 __PACKAGE__->mk_accessors( qw(config) );
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 sub new {
     my $class = shift;
@@ -177,6 +177,12 @@ upload recursively $local_dir to $remote_dir
 =head1 AUTHOR
 
 DQNEO, C<< <dqneoo at gmail.com> >>
+
+=head1 Github Repository
+
+https://github.com/DQNEO/Amazon-S3-FastUploader
+
+Forks & Pull Requests are wellcome!
 
 =head1 BUGS
 
