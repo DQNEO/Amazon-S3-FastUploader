@@ -54,6 +54,7 @@ S3 Uploader - a script to upload recursively a directory to Amazon S3
 
  -v  verbose
  -p  max process (default 1 if ommitted)
+ -s  use ssl
  -h  help (this)
 
 example:
